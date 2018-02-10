@@ -1,0 +1,6 @@
+main: de.slikey.effectlib.EffectLibModule
+name: EffectLibModule
+version: 1
+author: Drayke
+description: 'EffectLib2 Hydrant compatible'
+compatible: bukkit

@@ -42,9 +42,21 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+        <!-- MadDevs -->
+        <repository>
+            <id>MadDevs</id>
+            <url>http://repo.maddevs.de/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
+        <!-- our hydrant main dependency -->
+        <dependency>
+            <groupId>de.maddevs</groupId>
+            <artifactId>hydrant</artifactId>
+            <version>0.3.2-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
